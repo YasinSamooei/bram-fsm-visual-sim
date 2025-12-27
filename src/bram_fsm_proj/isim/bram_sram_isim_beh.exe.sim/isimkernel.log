@@ -1,0 +1,28 @@
+Command line:
+   bram_sram_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  50608
+
+Tue Dec 16 23:12:39 2025
+
+
+ Elaboration Time: 1.57813 sec
+
+ Current Memory Usage: 5807.78 Meg
+
+ Total Signals          : 9
+ Total Nets             : 2091
+ Total Signal Drivers   : 4
+ Total Blocks           : 3
+ Total Primitive Blocks : 3
+ Total Processes        : 2
+ Total Traceable Variables  : 15
+ Total Scalar Nets and Variables : 2576
+
+ Total Simulation Time: 1.59375 sec
+
+ Current Memory Usage: 5807.78 Meg
+
+Tue Dec 16 23:12:43 2025
+

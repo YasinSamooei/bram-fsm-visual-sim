@@ -1,0 +1,145 @@
+ISim log file
+Running: F:\bram_fsm_proj\tb_bram_fsm_corrected_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb F:/bram_fsm_proj/tb_bram_fsm_corrected_isim_beh.wdb 
+ISim P.20131013 (signature 0x7708f090)
+----------------------------------------------------------------------
+WARNING:Security:42 - Your software subscription period has lapsed. Your current version of Xilinx tools will continue to function, but you no longer qualify for Xilinx software updates or new releases.
+
+
+----------------------------------------------------------------------
+This is a Full version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 2000 ns
+Simulator is doing circuit initialization process.
+at 0 ps: Note: === Starting Corrected Test === (/tb_bram_fsm_corrected/).
+Finished circuit initialization process.
+at 5 ns(1): Note: Cycle 1: Cmd=0 CmdV='0' Addr=0x0 Din=0x0 Busy='U' DValid='U' Dout=0x0 (/tb_bram_fsm_corrected/).
+at 15 ns(1): Note: Cycle 2: Cmd=0 CmdV='0' Addr=0x0 Din=0x0 Busy='0' DValid='0' Dout=0x0 (/tb_bram_fsm_corrected/).
+at 25 ns(1): Note: Cycle 3: Cmd=0 CmdV='0' Addr=0x0 Din=0x0 Busy='0' DValid='0' Dout=0x0 (/tb_bram_fsm_corrected/).
+at 35 ns(1): Note: Cycle 4: Cmd=0 CmdV='0' Addr=0x0 Din=0x0 Busy='0' DValid='0' Dout=0x0 (/tb_bram_fsm_corrected/).
+at 45 ns: Note: Test 1: Write 0xAA to address 0x01 (/tb_bram_fsm_corrected/).
+at 45 ns(1): Note: Cycle 5: Cmd=0 CmdV='0' Addr=0x0 Din=0x0 Busy='0' DValid='0' Dout=0x0 (/tb_bram_fsm_corrected/).
+at 55 ns(1): Note: Cycle 6: Cmd=2 CmdV='1' Addr=0x1 Din=0x170 Busy='0' DValid='0' Dout=0x0 (/tb_bram_fsm_corrected/).
+at 65 ns(1): Note: Cycle 7: Cmd=0 CmdV='0' Addr=0x1 Din=0x170 Busy='1' DValid='0' Dout=0x0 (/tb_bram_fsm_corrected/).
+at 75 ns(1): Note: Cycle 8: Cmd=0 CmdV='0' Addr=0x1 Din=0x170 Busy='1' DValid='0' Dout=0x0 (/tb_bram_fsm_corrected/).
+at 85 ns(1): Note: Cycle 9: Cmd=0 CmdV='0' Addr=0x1 Din=0x170 Busy='1' DValid='0' Dout=0x0 (/tb_bram_fsm_corrected/).
+at 95 ns(1): Note: Cycle 10: Cmd=0 CmdV='0' Addr=0x1 Din=0x170 Busy='0' DValid='0' Dout=0x0 (/tb_bram_fsm_corrected/).
+at 105 ns: Note: Test 2: Read from address 0x01 (expect 0xAA) (/tb_bram_fsm_corrected/).
+at 105 ns(1): Note: Cycle 11: Cmd=0 CmdV='0' Addr=0x1 Din=0x170 Busy='0' DValid='0' Dout=0x0 (/tb_bram_fsm_corrected/).
+at 115 ns(1): Note: Cycle 12: Cmd=1 CmdV='1' Addr=0x1 Din=0x0 Busy='0' DValid='0' Dout=0x0 (/tb_bram_fsm_corrected/).
+at 125 ns(1): Note: Cycle 13: Cmd=0 CmdV='0' Addr=0x1 Din=0x0 Busy='1' DValid='0' Dout=0x0 (/tb_bram_fsm_corrected/).
+at 135 ns(1): Note: Cycle 14: Cmd=0 CmdV='0' Addr=0x1 Din=0x0 Busy='1' DValid='0' Dout=0x0 (/tb_bram_fsm_corrected/).
+at 145 ns(1): Note: Cycle 15: Cmd=0 CmdV='0' Addr=0x1 Din=0x0 Busy='1' DValid='0' Dout=0x0 (/tb_bram_fsm_corrected/).
+at 155 ns(1): Note: Cycle 16: Cmd=0 CmdV='0' Addr=0x1 Din=0x0 Busy='1' DValid='1' Dout=0x170 (/tb_bram_fsm_corrected/).
+at 155 ns(1): Note: SUCCESS: Read 0xAA from address 0x01 (/tb_bram_fsm_corrected/).
+at 165 ns(1): Note: Cycle 17: Cmd=0 CmdV='0' Addr=0x1 Din=0x0 Busy='0' DValid='0' Dout=0x170 (/tb_bram_fsm_corrected/).
+at 175 ns: Note: Test 3: Write 0x55 to address 0x02 (/tb_bram_fsm_corrected/).
+at 175 ns(1): Note: Cycle 18: Cmd=0 CmdV='0' Addr=0x1 Din=0x0 Busy='0' DValid='0' Dout=0x170 (/tb_bram_fsm_corrected/).
+at 185 ns(1): Note: Cycle 19: Cmd=2 CmdV='1' Addr=0x2 Din=0x85 Busy='0' DValid='0' Dout=0x170 (/tb_bram_fsm_corrected/).
+at 195 ns(1): Note: Cycle 20: Cmd=0 CmdV='0' Addr=0x2 Din=0x85 Busy='1' DValid='0' Dout=0x170 (/tb_bram_fsm_corrected/).
+at 205 ns(1): Note: Cycle 21: Cmd=0 CmdV='0' Addr=0x2 Din=0x85 Busy='1' DValid='0' Dout=0x170 (/tb_bram_fsm_corrected/).
+at 215 ns(1): Note: Cycle 22: Cmd=0 CmdV='0' Addr=0x2 Din=0x85 Busy='1' DValid='0' Dout=0x170 (/tb_bram_fsm_corrected/).
+at 225 ns(1): Note: Cycle 23: Cmd=0 CmdV='0' Addr=0x2 Din=0x85 Busy='0' DValid='0' Dout=0x170 (/tb_bram_fsm_corrected/).
+at 235 ns: Note: Test 4: Read from address 0x02 (expect 0x55) (/tb_bram_fsm_corrected/).
+at 235 ns(1): Note: Cycle 24: Cmd=0 CmdV='0' Addr=0x2 Din=0x85 Busy='0' DValid='0' Dout=0x170 (/tb_bram_fsm_corrected/).
+at 245 ns(1): Note: Cycle 25: Cmd=1 CmdV='1' Addr=0x2 Din=0x0 Busy='0' DValid='0' Dout=0x170 (/tb_bram_fsm_corrected/).
+at 255 ns(1): Note: Cycle 26: Cmd=0 CmdV='0' Addr=0x2 Din=0x0 Busy='1' DValid='0' Dout=0x170 (/tb_bram_fsm_corrected/).
+at 265 ns(1): Note: Cycle 27: Cmd=0 CmdV='0' Addr=0x2 Din=0x0 Busy='1' DValid='0' Dout=0x170 (/tb_bram_fsm_corrected/).
+at 275 ns(1): Note: Cycle 28: Cmd=0 CmdV='0' Addr=0x2 Din=0x0 Busy='1' DValid='0' Dout=0x170 (/tb_bram_fsm_corrected/).
+at 285 ns(1): Note: Cycle 29: Cmd=0 CmdV='0' Addr=0x2 Din=0x0 Busy='1' DValid='1' Dout=0x85 (/tb_bram_fsm_corrected/).
+at 285 ns(1): Note: SUCCESS: Read 0x55 from address 0x02 (/tb_bram_fsm_corrected/).
+at 285 ns(1): Note: Test 5: Write 0x33 to address 0x03 and read back (/tb_bram_fsm_corrected/).
+at 295 ns(1): Note: Cycle 30: Cmd=0 CmdV='0' Addr=0x2 Din=0x0 Busy='0' DValid='0' Dout=0x85 (/tb_bram_fsm_corrected/).
+at 305 ns(1): Note: Cycle 31: Cmd=2 CmdV='1' Addr=0x3 Din=0x51 Busy='0' DValid='0' Dout=0x85 (/tb_bram_fsm_corrected/).
+at 315 ns(1): Note: Cycle 32: Cmd=0 CmdV='0' Addr=0x3 Din=0x51 Busy='1' DValid='0' Dout=0x85 (/tb_bram_fsm_corrected/).
+at 325 ns(1): Note: Cycle 33: Cmd=0 CmdV='0' Addr=0x3 Din=0x51 Busy='1' DValid='0' Dout=0x85 (/tb_bram_fsm_corrected/).
+at 335 ns(1): Note: Cycle 34: Cmd=0 CmdV='0' Addr=0x3 Din=0x51 Busy='1' DValid='0' Dout=0x85 (/tb_bram_fsm_corrected/).
+at 345 ns(1): Note: Cycle 35: Cmd=0 CmdV='0' Addr=0x3 Din=0x51 Busy='0' DValid='0' Dout=0x85 (/tb_bram_fsm_corrected/).
+at 355 ns(1): Note: Cycle 36: Cmd=0 CmdV='0' Addr=0x3 Din=0x51 Busy='0' DValid='0' Dout=0x85 (/tb_bram_fsm_corrected/).
+at 365 ns(1): Note: Cycle 37: Cmd=1 CmdV='1' Addr=0x3 Din=0x0 Busy='0' DValid='0' Dout=0x85 (/tb_bram_fsm_corrected/).
+at 375 ns(1): Note: Cycle 38: Cmd=0 CmdV='0' Addr=0x3 Din=0x0 Busy='1' DValid='0' Dout=0x85 (/tb_bram_fsm_corrected/).
+at 385 ns(1): Note: Cycle 39: Cmd=0 CmdV='0' Addr=0x3 Din=0x0 Busy='1' DValid='0' Dout=0x85 (/tb_bram_fsm_corrected/).
+at 395 ns(1): Note: Cycle 40: Cmd=0 CmdV='0' Addr=0x3 Din=0x0 Busy='1' DValid='0' Dout=0x85 (/tb_bram_fsm_corrected/).
+at 405 ns(1): Note: Cycle 41: Cmd=0 CmdV='0' Addr=0x3 Din=0x0 Busy='1' DValid='1' Dout=0x51 (/tb_bram_fsm_corrected/).
+at 405 ns(1): Note: SUCCESS: Read back 0x33 from address 0x03 (/tb_bram_fsm_corrected/).
+at 405 ns(1): Note: ======================================== (/tb_bram_fsm_corrected/).
+at 405 ns(1): Note: ALL TESTS PASSED! (/tb_bram_fsm_corrected/).
+at 405 ns(1): Note: ======================================== (/tb_bram_fsm_corrected/).
+at 415 ns(1): Note: Cycle 42: Cmd=0 CmdV='0' Addr=0x3 Din=0x0 Busy='0' DValid='0' Dout=0x51 (/tb_bram_fsm_corrected/).
+at 425 ns(1): Note: Cycle 43: Cmd=0 CmdV='0' Addr=0x3 Din=0x0 Busy='0' DValid='0' Dout=0x51 (/tb_bram_fsm_corrected/).
+at 435 ns(1): Note: Cycle 44: Cmd=0 CmdV='0' Addr=0x3 Din=0x0 Busy='0' DValid='0' Dout=0x51 (/tb_bram_fsm_corrected/).
+at 445 ns(1): Note: Cycle 45: Cmd=0 CmdV='0' Addr=0x3 Din=0x0 Busy='0' DValid='0' Dout=0x51 (/tb_bram_fsm_corrected/).
+at 455 ns(1): Note: Cycle 46: Cmd=0 CmdV='0' Addr=0x3 Din=0x0 Busy='0' DValid='0' Dout=0x51 (/tb_bram_fsm_corrected/).
+at 465 ns(1): Note: Cycle 47: Cmd=0 CmdV='0' Addr=0x3 Din=0x0 Busy='0' DValid='0' Dout=0x51 (/tb_bram_fsm_corrected/).
+at 475 ns(1): Note: Cycle 48: Cmd=0 CmdV='0' Addr=0x3 Din=0x0 Busy='0' DValid='0' Dout=0x51 (/tb_bram_fsm_corrected/).
+at 485 ns(1): Note: Cycle 49: Cmd=0 CmdV='0' Addr=0x3 Din=0x0 Busy='0' DValid='0' Dout=0x51 (/tb_bram_fsm_corrected/).
+at 495 ns(1): Note: Cycle 50: Cmd=0 CmdV='0' Addr=0x3 Din=0x0 Busy='0' DValid='0' Dout=0x51 (/tb_bram_fsm_corrected/).
+at 505 ns(1): Note: Cycle 51: Cmd=0 CmdV='0' Addr=0x3 Din=0x0 Busy='0' DValid='0' Dout=0x51 (/tb_bram_fsm_corrected/).
+# restart
+# run 1.00us
+Simulator is doing circuit initialization process.
+at 0 ps: Note: === Starting Corrected Test === (/tb_bram_fsm_corrected/).
+Finished circuit initialization process.
+at 5 ns(1): Note: Cycle 1: Cmd=0 CmdV='0' Addr=0x0 Din=0x0 Busy='U' DValid='U' Dout=0x0 (/tb_bram_fsm_corrected/).
+at 15 ns(1): Note: Cycle 2: Cmd=0 CmdV='0' Addr=0x0 Din=0x0 Busy='0' DValid='0' Dout=0x0 (/tb_bram_fsm_corrected/).
+at 25 ns(1): Note: Cycle 3: Cmd=0 CmdV='0' Addr=0x0 Din=0x0 Busy='0' DValid='0' Dout=0x0 (/tb_bram_fsm_corrected/).
+at 35 ns(1): Note: Cycle 4: Cmd=0 CmdV='0' Addr=0x0 Din=0x0 Busy='0' DValid='0' Dout=0x0 (/tb_bram_fsm_corrected/).
+at 45 ns: Note: Test 1: Write 0xAA to address 0x01 (/tb_bram_fsm_corrected/).
+at 45 ns(1): Note: Cycle 5: Cmd=0 CmdV='0' Addr=0x0 Din=0x0 Busy='0' DValid='0' Dout=0x0 (/tb_bram_fsm_corrected/).
+at 55 ns(1): Note: Cycle 6: Cmd=2 CmdV='1' Addr=0x1 Din=0x170 Busy='0' DValid='0' Dout=0x0 (/tb_bram_fsm_corrected/).
+at 65 ns(1): Note: Cycle 7: Cmd=0 CmdV='0' Addr=0x1 Din=0x170 Busy='1' DValid='0' Dout=0x0 (/tb_bram_fsm_corrected/).
+at 75 ns(1): Note: Cycle 8: Cmd=0 CmdV='0' Addr=0x1 Din=0x170 Busy='1' DValid='0' Dout=0x0 (/tb_bram_fsm_corrected/).
+at 85 ns(1): Note: Cycle 9: Cmd=0 CmdV='0' Addr=0x1 Din=0x170 Busy='1' DValid='0' Dout=0x0 (/tb_bram_fsm_corrected/).
+at 95 ns(1): Note: Cycle 10: Cmd=0 CmdV='0' Addr=0x1 Din=0x170 Busy='0' DValid='0' Dout=0x0 (/tb_bram_fsm_corrected/).
+at 105 ns: Note: Test 2: Read from address 0x01 (expect 0xAA) (/tb_bram_fsm_corrected/).
+at 105 ns(1): Note: Cycle 11: Cmd=0 CmdV='0' Addr=0x1 Din=0x170 Busy='0' DValid='0' Dout=0x0 (/tb_bram_fsm_corrected/).
+at 115 ns(1): Note: Cycle 12: Cmd=1 CmdV='1' Addr=0x1 Din=0x0 Busy='0' DValid='0' Dout=0x0 (/tb_bram_fsm_corrected/).
+at 125 ns(1): Note: Cycle 13: Cmd=0 CmdV='0' Addr=0x1 Din=0x0 Busy='1' DValid='0' Dout=0x0 (/tb_bram_fsm_corrected/).
+at 135 ns(1): Note: Cycle 14: Cmd=0 CmdV='0' Addr=0x1 Din=0x0 Busy='1' DValid='0' Dout=0x0 (/tb_bram_fsm_corrected/).
+at 145 ns(1): Note: Cycle 15: Cmd=0 CmdV='0' Addr=0x1 Din=0x0 Busy='1' DValid='0' Dout=0x0 (/tb_bram_fsm_corrected/).
+at 155 ns(1): Note: Cycle 16: Cmd=0 CmdV='0' Addr=0x1 Din=0x0 Busy='1' DValid='1' Dout=0x170 (/tb_bram_fsm_corrected/).
+at 155 ns(1): Note: SUCCESS: Read 0xAA from address 0x01 (/tb_bram_fsm_corrected/).
+at 165 ns(1): Note: Cycle 17: Cmd=0 CmdV='0' Addr=0x1 Din=0x0 Busy='0' DValid='0' Dout=0x170 (/tb_bram_fsm_corrected/).
+at 175 ns: Note: Test 3: Write 0x55 to address 0x02 (/tb_bram_fsm_corrected/).
+at 175 ns(1): Note: Cycle 18: Cmd=0 CmdV='0' Addr=0x1 Din=0x0 Busy='0' DValid='0' Dout=0x170 (/tb_bram_fsm_corrected/).
+at 185 ns(1): Note: Cycle 19: Cmd=2 CmdV='1' Addr=0x2 Din=0x85 Busy='0' DValid='0' Dout=0x170 (/tb_bram_fsm_corrected/).
+at 195 ns(1): Note: Cycle 20: Cmd=0 CmdV='0' Addr=0x2 Din=0x85 Busy='1' DValid='0' Dout=0x170 (/tb_bram_fsm_corrected/).
+at 205 ns(1): Note: Cycle 21: Cmd=0 CmdV='0' Addr=0x2 Din=0x85 Busy='1' DValid='0' Dout=0x170 (/tb_bram_fsm_corrected/).
+at 215 ns(1): Note: Cycle 22: Cmd=0 CmdV='0' Addr=0x2 Din=0x85 Busy='1' DValid='0' Dout=0x170 (/tb_bram_fsm_corrected/).
+at 225 ns(1): Note: Cycle 23: Cmd=0 CmdV='0' Addr=0x2 Din=0x85 Busy='0' DValid='0' Dout=0x170 (/tb_bram_fsm_corrected/).
+at 235 ns: Note: Test 4: Read from address 0x02 (expect 0x55) (/tb_bram_fsm_corrected/).
+at 235 ns(1): Note: Cycle 24: Cmd=0 CmdV='0' Addr=0x2 Din=0x85 Busy='0' DValid='0' Dout=0x170 (/tb_bram_fsm_corrected/).
+at 245 ns(1): Note: Cycle 25: Cmd=1 CmdV='1' Addr=0x2 Din=0x0 Busy='0' DValid='0' Dout=0x170 (/tb_bram_fsm_corrected/).
+at 255 ns(1): Note: Cycle 26: Cmd=0 CmdV='0' Addr=0x2 Din=0x0 Busy='1' DValid='0' Dout=0x170 (/tb_bram_fsm_corrected/).
+at 265 ns(1): Note: Cycle 27: Cmd=0 CmdV='0' Addr=0x2 Din=0x0 Busy='1' DValid='0' Dout=0x170 (/tb_bram_fsm_corrected/).
+at 275 ns(1): Note: Cycle 28: Cmd=0 CmdV='0' Addr=0x2 Din=0x0 Busy='1' DValid='0' Dout=0x170 (/tb_bram_fsm_corrected/).
+at 285 ns(1): Note: Cycle 29: Cmd=0 CmdV='0' Addr=0x2 Din=0x0 Busy='1' DValid='1' Dout=0x85 (/tb_bram_fsm_corrected/).
+at 285 ns(1): Note: SUCCESS: Read 0x55 from address 0x02 (/tb_bram_fsm_corrected/).
+at 285 ns(1): Note: Test 5: Write 0x33 to address 0x03 and read back (/tb_bram_fsm_corrected/).
+at 295 ns(1): Note: Cycle 30: Cmd=0 CmdV='0' Addr=0x2 Din=0x0 Busy='0' DValid='0' Dout=0x85 (/tb_bram_fsm_corrected/).
+at 305 ns(1): Note: Cycle 31: Cmd=2 CmdV='1' Addr=0x3 Din=0x51 Busy='0' DValid='0' Dout=0x85 (/tb_bram_fsm_corrected/).
+at 315 ns(1): Note: Cycle 32: Cmd=0 CmdV='0' Addr=0x3 Din=0x51 Busy='1' DValid='0' Dout=0x85 (/tb_bram_fsm_corrected/).
+at 325 ns(1): Note: Cycle 33: Cmd=0 CmdV='0' Addr=0x3 Din=0x51 Busy='1' DValid='0' Dout=0x85 (/tb_bram_fsm_corrected/).
+at 335 ns(1): Note: Cycle 34: Cmd=0 CmdV='0' Addr=0x3 Din=0x51 Busy='1' DValid='0' Dout=0x85 (/tb_bram_fsm_corrected/).
+at 345 ns(1): Note: Cycle 35: Cmd=0 CmdV='0' Addr=0x3 Din=0x51 Busy='0' DValid='0' Dout=0x85 (/tb_bram_fsm_corrected/).
+at 355 ns(1): Note: Cycle 36: Cmd=0 CmdV='0' Addr=0x3 Din=0x51 Busy='0' DValid='0' Dout=0x85 (/tb_bram_fsm_corrected/).
+at 365 ns(1): Note: Cycle 37: Cmd=1 CmdV='1' Addr=0x3 Din=0x0 Busy='0' DValid='0' Dout=0x85 (/tb_bram_fsm_corrected/).
+at 375 ns(1): Note: Cycle 38: Cmd=0 CmdV='0' Addr=0x3 Din=0x0 Busy='1' DValid='0' Dout=0x85 (/tb_bram_fsm_corrected/).
+at 385 ns(1): Note: Cycle 39: Cmd=0 CmdV='0' Addr=0x3 Din=0x0 Busy='1' DValid='0' Dout=0x85 (/tb_bram_fsm_corrected/).
+at 395 ns(1): Note: Cycle 40: Cmd=0 CmdV='0' Addr=0x3 Din=0x0 Busy='1' DValid='0' Dout=0x85 (/tb_bram_fsm_corrected/).
+at 405 ns(1): Note: Cycle 41: Cmd=0 CmdV='0' Addr=0x3 Din=0x0 Busy='1' DValid='1' Dout=0x51 (/tb_bram_fsm_corrected/).
+at 405 ns(1): Note: SUCCESS: Read back 0x33 from address 0x03 (/tb_bram_fsm_corrected/).
+at 405 ns(1): Note: ======================================== (/tb_bram_fsm_corrected/).
+at 405 ns(1): Note: ALL TESTS PASSED! (/tb_bram_fsm_corrected/).
+at 405 ns(1): Note: ======================================== (/tb_bram_fsm_corrected/).
+at 415 ns(1): Note: Cycle 42: Cmd=0 CmdV='0' Addr=0x3 Din=0x0 Busy='0' DValid='0' Dout=0x51 (/tb_bram_fsm_corrected/).
+at 425 ns(1): Note: Cycle 43: Cmd=0 CmdV='0' Addr=0x3 Din=0x0 Busy='0' DValid='0' Dout=0x51 (/tb_bram_fsm_corrected/).
+at 435 ns(1): Note: Cycle 44: Cmd=0 CmdV='0' Addr=0x3 Din=0x0 Busy='0' DValid='0' Dout=0x51 (/tb_bram_fsm_corrected/).
+at 445 ns(1): Note: Cycle 45: Cmd=0 CmdV='0' Addr=0x3 Din=0x0 Busy='0' DValid='0' Dout=0x51 (/tb_bram_fsm_corrected/).
+at 455 ns(1): Note: Cycle 46: Cmd=0 CmdV='0' Addr=0x3 Din=0x0 Busy='0' DValid='0' Dout=0x51 (/tb_bram_fsm_corrected/).
+at 465 ns(1): Note: Cycle 47: Cmd=0 CmdV='0' Addr=0x3 Din=0x0 Busy='0' DValid='0' Dout=0x51 (/tb_bram_fsm_corrected/).
+at 475 ns(1): Note: Cycle 48: Cmd=0 CmdV='0' Addr=0x3 Din=0x0 Busy='0' DValid='0' Dout=0x51 (/tb_bram_fsm_corrected/).
+at 485 ns(1): Note: Cycle 49: Cmd=0 CmdV='0' Addr=0x3 Din=0x0 Busy='0' DValid='0' Dout=0x51 (/tb_bram_fsm_corrected/).
+at 495 ns(1): Note: Cycle 50: Cmd=0 CmdV='0' Addr=0x3 Din=0x0 Busy='0' DValid='0' Dout=0x51 (/tb_bram_fsm_corrected/).
+at 505 ns(1): Note: Cycle 51: Cmd=0 CmdV='0' Addr=0x3 Din=0x0 Busy='0' DValid='0' Dout=0x51 (/tb_bram_fsm_corrected/).

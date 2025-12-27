@@ -1,0 +1,3 @@
+vhdl isim_temp "bram_sram.vhd"
+vhdl isim_temp "bram_controller.vhd"
+vhdl isim_temp "tb_top_bram_fsm.vhd"

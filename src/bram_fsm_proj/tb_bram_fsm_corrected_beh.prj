@@ -1,0 +1,4 @@
+vhdl work "bram_sram.vhd"
+vhdl work "bram_controller.vhd"
+vhdl work "top_bram_fsm.vhd"
+vhdl work "tb_top_bram_fsm.vhd"

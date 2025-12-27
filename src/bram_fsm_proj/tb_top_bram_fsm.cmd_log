@@ -1,0 +1,5 @@
+xst -intstyle ise -ifn "D:/bram_fsm_proj/tb_top_bram_fsm.xst" -ofn "D:/bram_fsm_proj/tb_top_bram_fsm.syr" 
+xst -intstyle ise -ifn "D:/bram_fsm_proj/tb_top_bram_fsm.xst" -ofn "D:/bram_fsm_proj/tb_top_bram_fsm.syr" 
+xst -intstyle ise -ifn "D:/bram_fsm_proj/tb_top_bram_fsm.xst" -ofn "D:/bram_fsm_proj/tb_top_bram_fsm.syr" 
+xst -intstyle ise -ifn "D:/bram_fsm_proj/tb_top_bram_fsm.xst" -ofn "D:/bram_fsm_proj/tb_top_bram_fsm.syr" 
+xst -intstyle ise -ifn "D:/bram_fsm_proj/tb_top_bram_fsm.xst" -ofn "D:/bram_fsm_proj/tb_top_bram_fsm.syr" 

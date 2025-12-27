@@ -1,0 +1,28 @@
+Command line:
+   tb_bram_fsm_simple_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  50590
+
+Tue Dec 16 23:09:23 2025
+
+
+ Elaboration Time: 1.125 sec
+
+ Current Memory Usage: 5651.13 Meg
+
+ Total Signals          : 64
+ Total Nets             : 2213
+ Total Signal Drivers   : 35
+ Total Blocks           : 6
+ Total Primitive Blocks : 4
+ Total Processes        : 15
+ Total Traceable Variables  : 22
+ Total Scalar Nets and Variables : 2705
+
+ Total Simulation Time: 1.17188 sec
+
+ Current Memory Usage: 4707.41 Meg
+
+Tue Dec 16 23:12:12 2025
+

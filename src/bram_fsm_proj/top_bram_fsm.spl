@@ -1,0 +1,12 @@
+[Inputs]
+clk
+rst
+cmd_valid
+=cmd[1:0]=
+=addr_in[7:0]=
+=data_in[7:0]=
+[Outputs]
+data_valid
+busy
+=data_out[7:0]=
+[BiDir]

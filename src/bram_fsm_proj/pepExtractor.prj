@@ -1,0 +1,3 @@
+work	"bram_controller.vhd"
+work	"bram_sram.vhd"
+work	"top_bram_fsm.vhd"

@@ -1,0 +1,24 @@
+Running: F:\xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib secureip -o F:/bram_fsm_proj/tb_bram_fsm_corrected_isim_beh.exe -prj F:/bram_fsm_proj/tb_bram_fsm_corrected_beh.prj work.tb_bram_fsm_corrected 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Parsing VHDL file "F:/bram_fsm_proj/bram_sram.vhd" into library work
+Parsing VHDL file "F:/bram_fsm_proj/bram_controller.vhd" into library work
+Parsing VHDL file "F:/bram_fsm_proj/top_bram_fsm.vhd" into library work
+Parsing VHDL file "F:/bram_fsm_proj/tb_top_bram_fsm.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package numeric_std
+Compiling architecture rtl of entity bram_controller [\bram_controller(8,8)\]
+Compiling architecture rtl of entity bram_sram [\bram_sram(8,8)\]
+Compiling architecture structural of entity top_bram_fsm [\top_bram_fsm(8,8)\]
+Compiling architecture sim of entity tb_bram_fsm_corrected
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 10 VHDL Units
+Built simulation executable F:/bram_fsm_proj/tb_bram_fsm_corrected_isim_beh.exe
+Fuse Memory Usage: 35264 KB
+Fuse CPU Usage: 577 ms
